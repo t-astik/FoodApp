@@ -1,0 +1,39 @@
+.categoryCard {
+    text-decoration: none;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 10%);
+    border-radius: 3%;
+    height: 110px;
+    padding: 0px 7px 0px 7px;
+}
+
+.linkSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.like {
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.title {
+    color: #393939;
+    font-size: 11px;
+    margin-top: 7px;
+}
+
+.varieties {
+    color: #8E8E8E;
+    font-size: 10px;
+    margin-bottom: 11px;
+}

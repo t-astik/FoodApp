@@ -1,0 +1,86 @@
+.root {
+    padding: 34px 25px 34px 25px;
+}
+
+.timeSection {
+    display: flex;
+    flex-direction: column;
+    color: #6B6B6B;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.workingDays {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.workingHours {
+    font-size: 16px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.link_active p {
+    color: #EB212E;
+}
+
+.link__img {
+    width: 24px;
+    height: 24px;
+    margin-right: 21px;
+}
+
+.link__text {
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}
+
+.callButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #FF5863, #EB212E);
+    margin-top: 87px;
+    margin-bottom: 15px;
+    align-self: center;
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.callButton__img {
+    width: 24px;
+    height: 24px;
+    margin-right: 21px;
+}
+
+.callButton__text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.socialmedia__title {
+    color: #6B6B6B;
+    font-size: 14px;
+}
+
+.socialmedia__item {
+    width: 19px;
+    height: 19px;
+    margin-top: 9px;
+    margin-right: 11px;
+}

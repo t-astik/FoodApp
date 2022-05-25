@@ -1,0 +1,14 @@
+.root {
+  text-align: center;
+  width: 390px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  font-family: 'Gilroy';
+}
+
+@media (max-width: 390px) {
+  .root {
+    width: 100%;
+  }
+}

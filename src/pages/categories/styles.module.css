@@ -1,0 +1,39 @@
+.root {}
+
+.categoriesSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 9px 0px 21px;
+    margin-bottom: 36px;
+}
+
+.categoriesSection__title {
+    align-self: start;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Noto Serif';
+}
+
+.categoriesSection__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.popularProducts {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 21px;
+}
+
+.popularProducts__title {
+    align-self: start;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Noto Serif'; 
+}

@@ -1,0 +1,60 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoriesSection {
+    display: flex;
+    flex-direction: column;
+    padding-left: 21px;
+}
+
+
+.categoriesSection__title {
+    align-self: start;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Noto Serif';
+}
+
+.categoriesSection__content {
+    display: flex;
+}
+
+.categoryCardWrapper {
+    display: flex;
+    flex-basis: 26%;
+    margin-right: 13px;
+    flex-shrink: 0;
+}
+
+.categoryCardWrapper > div {
+    width: 100%;
+    height: 100px;
+}
+
+.productsSection {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 22px 0px 21px;
+}
+
+.productsSection_title {
+    align-self: start;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Noto Serif';
+}
+
+.productContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+
+ 
