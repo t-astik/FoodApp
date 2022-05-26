@@ -47,10 +47,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  transform: translateY(-1000px);
+  transform: translateY(-10000px);
   background: white;
   z-index: 2;
-  height: 114vh;
+  height: 120vh;
 }
 
 .menu_opened {
