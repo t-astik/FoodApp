@@ -5,6 +5,7 @@
   height: 100%;
   position: relative;
   font-family: 'Gilroy';
+  padding-bottom: 10px;
 }
 
 @media (max-width: 390px) {

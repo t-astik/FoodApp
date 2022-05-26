@@ -7,7 +7,9 @@
 .root__left {}
 .root__right {}
 
-.button {}
+.button {
+  cursor: pointer;
+}
 
 .cart {
   display: flex;
@@ -45,9 +47,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  transform: translateY(-100%);
+  transform: translateY(-1000px);
   background: white;
   z-index: 2;
+  height: 120vh;
 }
 
 .menu_opened {
